@@ -1,7 +1,13 @@
-export default function Home() {
+import Hero from '@/sections/Home/Hero'
+import Team from '@/sections/Home/Team'
+import Clients from '@/sections/Home/Clients'
+function page() {
   return (
-    <div>
-      Besm Allah
-    </div>
+    <>
+      <Hero />
+      <Team />
+      <Clients />
+    </>
   )
 }
+export default page

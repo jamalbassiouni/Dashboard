@@ -1,37 +1,37 @@
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Padding */
 .container {
-    max-width : 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-@media (max-width : 1300px) {
+@media (max-width: 1300px) {
   .px {
-      padding-left: 50px;
-      padding-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
-@media (max-width : 900px) {
+@media (max-width: 900px) {
   .px {
-      padding-left: 20px;
-      padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
 /* Hide the arrows in Chrome, Safari, and Edge */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* Hide the arrows in Firefox */
-input[type="number"] {
+input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
@@ -42,24 +42,25 @@ input {
 }
 
 /* Start Scrollbar */
-::-webkit-scrollbar{
-	width: 7px;
+::-webkit-scrollbar {
+  width: 7px;
   height: 0px;
 }
-::-webkit-scrollbar-track{
-	background-color: transparent;
+::-webkit-scrollbar-track {
+  background-color: transparent;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   border-radius: 8px;
-	background-color: hsl(152, 63%, 43%);	
-	background-image: 
-  -webkit-linear-gradient(45deg,
-  rgba(255, 255, 255, .2) 25%,
-  transparent 25%,
-  transparent 50%,
-  rgba(255, 255, 255, .2) 50%,
-  rgba(255, 255, 255, .2) 75%,
-  transparent 75%,
-  transparent)
+  background-color: hsl(152, 63%, 43%);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 /* End Scrollbar */

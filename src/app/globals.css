@@ -6,9 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
-
 @layer base {
   :root {
-    --primary: 19, 56%, 19%;
   }
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 22px!important;
+  font-weight:bold!important;
+  color: #000000;
 }
